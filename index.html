@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script
+      src="https://kit.fontawesome.com/ecee866c05.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              clifford: '#da373d',
+            }
+          }
+        }
+      }
+    </script>
+    
+  </head>
+
+  <body>
+    <section>
+      <nav class="bg-[#23304c] w-full py-6">
+        <div class="container mx-auto flex justify-between">
+          <img src="/webim/package.png" class="h-8 animate-bounce" />
+          <ul class="text-lg tracking-wide items-center flex gap-x-8">
+            <li class="hover:scale-125 duration-300 py-1 text-teal-400 hover:text-white font-bold">
+              <a href="#home" class="cursor-pointer">Home</a>
+            </li>
+            <li class="hover:scale-125 duration-300 py-1 text-teal-400 hover:text-white font-bold">
+              <a href="#about" class="cursor-pointer">About</a>
+            </li>
+            <li class="hover:scale-125 duration-300 py-1 text-teal-400 hover:text-white font-bold">
+              <a href="#skills" class="cursor-pointer">Skill</a>
+            </li>
+            <li class="hover:scale-125 duration-300 py-1 text-teal-400 hover:text-white font-bold">
+              <a href="#contact" class="cursor-pointer">Contact</a>
+            </li>
+            <li class="hover:scale-125 duration-300 py-1 text-teal-400 hover:text-white font-bold">
+              <a href="#project" class="cursor-pointer">Project</a>
+            </li>
+            <li class="hover:scale-125 duration-300 py-1 text-teal-400 hover:text-white font-bold">
+              <a href="https://gladysluke.hashnode.dev/" class="cursor-pointer"
+                >Blog</a
+              >
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </section>
+    <section id="home" class="bg-[#23304c] h-screen flex px-[10%] py-[6%]">
+      <img
+        src="/webim/Ellipse.png"
+        class="z-20 animate-ping w-6 absolute left-24 top-56"
+      />
+      <img
+        src="/webim/Ellipse.png"
+        class="z-20 animate-ping w-6 absolute right-96 top-36"
+      />
+      <img
+        src="/webim/Ellipse.png"
+        class="z-20 animate-ping w-6 absolute left-64 bottom-24"
+      />
+      <img
+        src="/webim/Ellipse.png"
+        class="z-20 animate-ping w-6 absolute right-40 top-64"
+      />
+
+      <img src="/webim/wave3.png" class="absolute bottom-20 right-36 w-96" />
+      <img src="/webim/wave.png" class="absolute z-20 bottom-0 right-0 w-2/3" />
+
+      <div class="flex-1 pt-7">
+        <div class="absolute">
+          <div class="mb-20">
+            <p class="text-lg text-teal-500">Hi, my name is</p>
+            <h1 class="text-[60px] font-bold text-gray-200">Gladys Luke.</h1>
+            <h1 class="text-[60px] font-bold text-gray-400">
+              I build things for the web.
+            </h1>
+            <p class="text-gray-300 text-xl w-[50%] text-left">
+              I am a frontend developer specializing in building exceptional
+              digital experiences. currently, i am focused in building
+              accessible human centered products
+            </p>
+          </div>
+          <div>
+            <a
+              class="bg-teal-600 px-7 rounded-full tracking-wide py-3 text-xs hover:scale-110 duration-300"
+              href="/Gladys-CV..pdf"
+              title=""
+              download
+            >
+              Download CV
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="py-12">
+      <div class="container mx-auto">
+        <div class="flex flex-wrap items-center">
+          <!-- Image placeholder (replace the src with your image URL) -->
+          <img
+            src="/images/profile.jpg"
+            alt="Your Name"
+            class="w-[500px] h-[500px] rounded-full mx-auto mb-6 shadow-lg"
+          />
+
+          <!-- About Me Text -->
+          <div class="w-full lg:w-1/2 px-4">
+            <h2 class="text-3xl font-bold mb-4">About Me</h2>
+            <p class="text-lg text-gray-700 leading-relaxed">
+              Hi there! I'm Gladys, a passionate frontend developer With almost
+              2 years of experience in crafting elegant and user-friendly
+              interfaces, I thrive on turning complex ideas into simple,
+              beautiful, and efficient designs. My expertise lies in HTML, CSS,
+              JavaScript, and modern frontend frameworks like React. I am
+              well-versed in responsive design and optimizing websites for
+              better performance. I believe that great teamwork, clear
+              communication, and a dash of creativity are the keys to delivering
+              successful projects.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="skills" class="mb-20">
+      <div class="bg-teal-300 w-full h-screen m-auto">
+        <h1 class="text-[50px] flex justify-center items-center">skills</h1>
+        <div class="flex flex-col gap-16 w-full">
+          <div class="flex justify-center gap-48">
+            <div class="text-center">
+              <img
+                class="image-item w-32 h-32 rounded-full"
+                src="/webim/bootstrap.png"
+                alt="Image 1"
+              />
+              <p>Bootstrap</p>
+            </div>
+            <div class="text-center">
+              <img
+                class="image-item w-32 h-32 rounded-full"
+                src="/webim/css.png"
+                alt="Image 2"
+              />
+              <p>CSS</p>
+            </div>
+          </div>
+          <div class="flex justify-center gap-48">
+            <div class="text-center">
+              <img
+                class="image-item w-32 h-32 rounded-full"
+                src="/webim/html.png"
+                alt="Image 3"
+              />
+              <p>HTML</p>
+            </div>
+            <div class="text-center">
+              <img
+                class="image-item w-32 h-32 rounded-full"
+                src="/webim/tailwind.png"
+                alt="Image 4"
+              />
+              <p>Tailwind</p>
+            </div>
+          </div>
+          <div class="flex justify-center gap-48">
+            <div class="text-center">
+              <img
+                class="image-item w-32 h-32 rounded-full"
+                src="/webim/javascript.png"
+                alt="Image 5"
+              />
+              <p>JavaScript</p>
+            </div>
+            <div class="text-center">
+              <img
+                class="image-item w-32 h-32 rounded-full"
+                src="/webim/sass.png"
+                alt="Image 6"
+              />
+              <p>Sass</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="mb-28">
+      <div class="flex w-full justify-center items-center mt-24">
+        <div
+          class="flex flex-col md:flex-row md:space-x-6 space-y-6 md:space-y-0 overflow-hidden bg-teal-900 w-full max-w-4xl p-8 rounded-xl shadow-lg text-white"
+        >
+          <div class="flex flex-col space-y-8 justify-between">
+            <div>
+              <h1 class="font-bold text-4xl tracking-wide">Contact Me</h1>
+              <p class="pt-2 text-cyan-100 text-sm">
+                Thank you for visiting my website! I'm thrilled to connect with
+                you. If you have any questions, inquiries, or project proposals
+                related to frontend development, feel free to reach out to me.
+              </p>
+            </div>
+            <div class="flex flex-col space-y-6">
+              <div class="inline-flex space-x-2 items-center">
+                <i class="fa-solid fa-phone text-teal-300 text-xl"></i>
+                <span>+2348068171870</span>
+              </div>
+              <div class="inline-flex space-x-2 items-center">
+                <i class="fa-solid fa-envelope text-teal-300 text-xl"></i>
+                <span>lukegladys615@gmail.com</span>
+              </div>
+              <div class="inline-flex space-x-2 items-center">
+                <i class="fa-solid fa-location-dot text-teal-300 text-xl"></i>
+                <span>FCT, Nigeria</span>
+              </div>
+            </div>
+            <div class="flex space-x-4 text-lg">
+              <a
+                href="https://www.facebook.com/gladys.luke.961"
+                ><i class="fa-brands fa-facebook"></i
+              ></a>
+              <a href="https://twitter.com/lukegladys3"
+                ><i class="fa-brands fa-twitter"></i
+              ></a>
+              <a href="https://www.instagram.com/my_name_is_yachat/"
+                ><i class="fa-brands fa-instagram"></i
+              ></a>
+              <a href="https://www.linkedin.com/in/gladys-luke/"
+                ><i class="fa-brands fa-linkedin"></i
+              ></a>
+            </div>
+          </div>
+          <div class="relative">
+            <div
+              class="absolute z-0 w-40 h-40 bg-teal-400 rounded-full -right-20 -top-24"
+            ></div>
+            <div
+              class="absolute z-0 w-40 h-40 bg-teal-400 rounded-full -left-20 -bottom-20"
+            ></div>
+            <div
+              class="relative z-10 bg-white rounded-xl shadow-lg p-10 text-gray-600 md:w-80"
+            >
+              <form action="" class="flex flex-col space-y-4">
+                <div>
+                  <label for="" class="text-sm">Your Name</label>
+                  <input
+                    type="text"
+                    placeholder="Your Name"
+                    class="ring-1 ring-gray-300 w-full rounded-md px-4 mt-2 py-2 outline-none focus:ring-2 focus:ring-teal-300"
+                  />
+                </div>
+                <div>
+                  <label for="" class="text-sm">Email address</label>
+                  <input
+                    type="email"
+                    placeholder="Email address"
+                    class="ring-1 ring-gray-300 w-full rounded-md px-4 mt-2 py-2 outline-none focus:ring-2 focus:ring-teal-300"
+                  />
+                </div>
+                <div>
+                  <label for="" class="text-sm">Message</label>
+                  <textarea
+                    placeholder="Message"
+                    rows="4"
+                    class="ring-1 ring-gray-300 w-full rounded-md px-4 mt-2 py-2 outline-none focus:ring-2 focus:ring-teal-300"
+                  ></textarea>
+                </div>
+                <button
+                  class="inline-block self-end bg-cyan-700 text-white font-bold rounded-lg px-6 py-2 uppercase text-sm"
+                >
+                  Send Message
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="project" class="bg-gray-100">
+      <div class="container md:px-4 py-8 md:py-16">
+        <div class="flex flex-col gap-8 md:gap-28 items-center">
+          <h1 class="text-2xl font-bold mb-4">My Projects</h1>
+          <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 overflow-x-auto">
+            <!-- Project 1 -->
+            <div class="bg-white shadow-md rounded-md p-4">
+              <a href="https://hotel-repo.vercel.app/">
+                <img src="/images/hotel.png" alt="Project 1" class="w-full h-40 object-cover rounded-md mb-4" />
+                <h2 class="text-lg font-semibold mb-2">Hotel Project</h2>
+                <p class="text-gray-600">HTML/CSS</p>
+              </a>
+            </div>
+    
+            <!-- Project 2 -->
+            <div class="bg-white shadow-md rounded-md p-4">
+              <a href="https://react-forms-five.vercel.app/">
+                <img src="/images/medics.png" alt="Project 2" class="w-full h-40 object-cover rounded-md mb-4" />
+                <h2 class="text-lg font-semibold mb-2">Medics</h2>
+                <p class="text-gray-600">HTML/CSS</p>
+              </a>
+            </div>
+    
+            <!-- Project 3 -->
+            <div class="bg-white shadow-md rounded-md p-4">
+              <a href="https://nft-web-snowy.vercel.app/">
+                <img src="/images/nft.png" alt="Project 3" class="w-full h-40 object-cover rounded-md mb-4" />
+                <h2 class="text-lg font-semibold mb-2">NFT project</h2>
+                <p class="text-gray-600">React</p>
+              </a>
+            </div>
+    
+            <!-- Add more projects here -->
+          </div>
+        </div>
+      </div>
+    </section>
+    
+
+    <section id="testimonials" class="bg-teal-900 text-white">
+      <div class="text-center py-10">
+        <h5 class="text-white">Testimonials</h5>
+        <h1 class="text-4xl w-96 mx-auto leading-normal font-bold mb-12">
+          Read what others have to say
+        </h1>
+        <div class="flex flex-col md:flex-row max-w-5xl mx-auto gap-8 group">
+          <div
+            class="bg-white/10 duration-500 group-hover:blur-sm hover:!blur-none group-hover:scale-[0.85] hover:!scale-100 cursor-pointer p-8 rounded-xl mix-blend-luminosity"
+          >
+            <img
+              src="https://images.unsplash.com/photo-1533108165347-036ec233d7ec?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1376&q=80"
+              alt=""
+              class="w-[80px] rounded-full h-20 mx-auto"
+            />
+            <h4 class="uppercase font-bold text-xl">John Doe</h4>
+            <p class="text-sm leading-7 my-3 font-light opacity-50">
+              "Working with Gladys and her frontend development expertise was a
+              game-changer for our business. Her attention to detail and
+              commitment to delivering exceptional user experiences is
+              unparalleled. I highly recommend Gladys to anyone looking for
+              top-notch frontend development."
+            </p>
+            <button class="bg-blue-600 py-2.5 px-8 rounded-full">
+              Get in Touch
+            </button>
+          </div>
+          <div
+            class="bg-white/10 duration-500 group-hover:blur-sm hover:!blur-none group-hover:scale-[0.85] hover:!scale-100 cursor-pointer p-8 rounded-xl mix-blend-luminosity"
+          >
+            <img
+              src="https://images.unsplash.com/photo-1504275490777-45f30792f13f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=387&q=80"
+              alt=""
+              class="w-[80px] rounded-full h-20 mx-auto"
+            />
+            <h4 class="uppercase font-bold text-xl">Theresa Marshall</h4>
+            <p class="text-sm leading-7 my-3 font-light opacity-50">
+              "I've had the pleasure of collaborating with Gladys on multiple
+              projects. Her ability to transform design concepts into
+              pixel-perfect, responsive websites is simply outstanding. Gladys
+              is my go-to frontend developer, and I'm always impressed with her
+              professionalism and technical skills."
+            </p>
+            <button class="bg-blue-600 py-2.5 px-8 rounded-full">
+              Get in Touch
+            </button>
+          </div>
+          <div
+            class="bg-white/10 duration-500 group-hover:blur-sm hover:!blur-none group-hover:scale-[0.85] hover:!scale-100 cursor-pointer p-8 rounded-xl mix-blend-luminosity"
+          >
+            <img
+              src="https://images.unsplash.com/photo-1463453091185-61582044d556?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80"
+              alt=""
+              class="w-[80px] rounded-full h-20 mx-auto"
+            />
+            <h4 class="uppercase font-bold text-xl">Damilola Aigbe</h4>
+            <p class="text-sm leading-7 my-3 font-light opacity-50">
+              "From the initial consultation to the final implementation, Gladys
+              demonstrated exceptional communication and collaboration skills.
+              She took our design mockups and turned them into a fully
+              functional and visually stunning website. Gladys is a reliable,
+              talented frontend developer that I wholeheartedly recommend."
+            </p>
+            <button class="bg-blue-600 py-2.5 px-8 rounded-full">
+              Get in Touch
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="bg-gray-900 text-white py-8">
+      <div class="container mx-auto px-4">
+        <!-- Footer content -->
+        <p class="text-center">© 2023 Gladys Luke. All rights reserved.</p>
+      </div>
+    </footer>
+  </body>
+</html>
